@@ -1,0 +1,49 @@
+p  /* Quand le visiteur clique sur le lien */
+{
+
+    font-size: 1.3em;
+    font-family: "Arial Black", Arial, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.imageflottante
+{
+    float: left;
+}
+
+h1:hover              /* change au survol*/
+
+{
+	font-size: 2em;
+    text-align: center;
+    border: 3px blue dashed;	
+}
+
+
+.dessous
+{
+    clear: both;
+}
+
+body
+
+{
+
+  /*   background-image: url("neige.png");
+
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-position: 30px 50px;
+    background-repeat: no-repeat;
+}
+
+body
+
+{
+
+    background: url("soleil.png") fixed no-repeat top right, url("neige.png") fixed;
+
+    opacity: 0.6;
+}
